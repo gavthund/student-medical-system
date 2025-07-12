@@ -1,0 +1,47 @@
+# Ignore common files and directories
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+
+# Database backups
+*.sql.bak
+*.sql.backup
+
+# Configuration files with sensitive data
+config/local.php
+config/production.php
+.env
+
+# Temporary uploads
+uploads/temp/
+tmp/
+
+# Cache directories
+cache/
+logs/
+
+# Node modules (if any)
+node_modules/
+
+# Composer vendor (if any)
+vendor/
+
+# Build artifacts
+dist/
+build/
